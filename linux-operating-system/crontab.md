@@ -1,12 +1,10 @@
 # Crontab
 
-## What's a crontab?
+### What's a crontab?
 
 Crontab's, also known as cron jobs, are a way to set things up to run in the background automatically at a certain interval. They're used in CWx for things like having the CWx cleanup script run and clean out old files from directories, or to reload the Netrics cache for clients who use Netrics. Another example would be the crontab I have running on the Zabbix nodes to alert me to the mysql filesystem cleaning up.&#x20;
 
-## Crontab Nitty Gritty Details
-
-
+### Crontab Nitty Gritty Details
 
 Setting up cron jobs in Unix and Solaris cron is a unix, solaris utility that allows tasks to be automatically run in the background at regular intervals by the cron daemon. These tasks are often termed as cron jobs in unix , solaris. Crontab (CRON TABle) is a file which contains the schedule of cron entries to be run and at specified times. This document covers following aspects of Unix cron jobs
 

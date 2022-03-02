@@ -1,10 +1,10 @@
 # Soft and Hard Links
 
-## What are Links?
+### What are Links?
 
 Links in Linux are like shortcuts in Windows. They're not the actual file, they just "Link" to that file. Sometimes links are used at Cerner. Like I know Baptist uses links to share their custom script directory between nodes in a domain/cross domains using a nfs share mounted using Samba. Weird stuff like that is when you'll see links impact you a lot of the time.&#x20;
 
-## What is the difference between soft and hard links <a href="#what-is-the-difference-between-soft-and-hard-links" id="what-is-the-difference-between-soft-and-hard-links"></a>
+### What is the difference between soft and hard links <a href="#what-is-the-difference-between-soft-and-hard-links" id="what-is-the-difference-between-soft-and-hard-links"></a>
 
 #### Soft Links => <a href="#soft-links" id="soft-links"></a>
 

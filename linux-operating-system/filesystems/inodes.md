@@ -2,7 +2,7 @@
 
 
 
-## What's in an inode? <a href="#whats-in-an-inode" id="whats-in-an-inode"></a>
+### What's in an inode? <a href="#whats-in-an-inode" id="whats-in-an-inode"></a>
 
 All UNIX files have its description stored in a structure called ‘inode’. The inode contains info about the file-size, its location, time of last access, time of last modification, permission and so on.
 
@@ -42,6 +42,6 @@ find . -inum inode_number -exec rm -i {} \;
 
 `df -i` will list the inode info for each mounted filesystem.
 
-## Why do I care about inodes?
+### Why do I care about inodes?
 
 Typically, you won't, but sometimes you'll run into weird issues with performance. Or a solution having an issue writing or reading files on the backend. That's why it's always good to make sure you have free inodes. I've run into this a few times and its bit me in the butt. Always a good thing to check.
