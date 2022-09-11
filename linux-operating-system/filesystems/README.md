@@ -79,3 +79,9 @@ If your filesystem is in fstab, then it could be corrupt. If you can, unmount th
 #### My filesystem is full and I see a bunch of files that show 0 bytes. What gives?
 
 Even though these files show 0, they do take up space when there's enough of them. Remove them if they're not important, but you should do your due diligence and try to figure out where they're coming from.
+
+#### What do I do if I need to how much space each file is taking in a directory?
+
+```
+du -sh ./*
+```
